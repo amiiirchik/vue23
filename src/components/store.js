@@ -6,5 +6,5 @@ const news = [
 ]
 
 export function store(){
-    return news 
+    return news
 }

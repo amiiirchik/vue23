@@ -5,7 +5,7 @@ let now = new Date().toLocaleDateString()
 
 <template>
 <div class="pt-1">
-    <h1>Актуальные новости {{now}}</h1>
+    <h1>Актуальные новости {{ now }}</h1>
     <hr>
 </div>
 </template>
