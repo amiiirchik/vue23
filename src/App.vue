@@ -10,6 +10,6 @@ const news = store()
 </script>
 
 <template>
-  <date-header/>
-  <news-header v-for="title in news" msg="{{title.text}}" ></news-header>
+  <date-header />
+  <news-header v-for="elem in news" :key="elem" :newsTitle="elem.h1" :newsText="elem.text" />
 </template>
