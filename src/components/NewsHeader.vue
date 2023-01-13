@@ -36,7 +36,6 @@ function readBtnHandler(){
     <button class="btn" @click="openBtnHandler()">{{isOpen ? 'Свернуть' : 'Развернуть'}}</button>
     <p v-if="isOpen">{{ newsText }}</p>
     <button v-if="isOpen" class="btn" @click="readBtnHandler()">{{wasRead ? 'Не прочитано' : 'Прочитано'}}</button>
-    <p>Статья открыта: {{ count }}</p>
-    <p>Просмотров: {{ readCount }}</p>
+
   </div>
 </template>
